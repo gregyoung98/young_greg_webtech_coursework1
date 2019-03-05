@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="rot13.css">
+		<title>Message Encoder</title>
+	</head>
+	<body>
+		<h1>A Message Encoder<h1>
+		<p>About message encoding...</p>
+		
+		<div id="input_area">
+			<textarea rows="1" cols="50" autofocus id="message">Type your message here</textarea>
+			<button type="button" onclick="encode()" id="encode_button">Ceaser Cipher</button>
+			<button type="button" onclick="cipher()" id="cipher_button">Simple Cipher</button>
+			
+		</div>
+		
+		<div id="output_area">
+			<p>
+			This is your encoded message:<br />
+			<div id="output"></div>
+			</p>
+		<div>
+		<script type="text/javascript" src="rot13.js"></script>
+		<script type="text/javascript" src="cipher.js"></script>
+	</body>
+</html>
