@@ -16,6 +16,7 @@ function cipher()
 		{
 			var cipherletter = key[commonindex];
 			cipher_text.push(cipherletter);
+			//comment
 		}
 	}
 	document.getElementById("output").innerHTML = cipher_text.join("");
